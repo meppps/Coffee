@@ -1,0 +1,136 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  margin:0;
+  font-family: quicksand;
+  font-size: 17px;
+  color:#fff;
+  line-height: 1.6;
+}
+
+#showcase{
+  background-image:url('../img/coffee.jpg');
+  background-size:cover;
+  background-position: center;
+  height:100vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:0 20px;
+}
+
+#showcase h1{
+  font-size: 90px;
+}
+ 
+h1:hover{
+  color: #926239;
+}
+
+#showcase p{
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.button{
+  margin-top: 12px;
+  padding: 10px;
+  border: 2px white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button:hover{
+  background: black;
+  color: white;
+}
+
+/* #showcase .button:hover{
+  background:#fff
+  color:926239;
+} */
+
+#info{
+  background-color: #333;
+  padding:20px;
+  background:#333;
+  text-align: center
+  display: flex;
+}
+
+/* #text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+} */
+
+
+.section{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#secion-b{
+  margin-top: 100px;
+  padding:20px;
+  background:#333;
+  text-align: left;
+}
+
+.cHeader{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#section-c{
+  margin-top: 20px;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+#section-c div{
+  padding:20px;
+}
+
+#section-c .box1, #section-c .box3{
+  background:f4f4f4;
+  color:fff;
+}
+
+
+
+.card{
+  width: 250px;
+  height: 300px;
+  border: 2px;
+  border-color: beige;
+  background: bisque;
+  text-align: center;
+}
+
+.cardBody{
+  display: flex;
+  flex-direction: column;
+}
+
+.icon{
+  width: 100px;
+  height: 100px;
+}
+
+.cardText{
+  color: #333;
+  font-weight: bold;
+}
+
+footer{
+  color: #333;
+  background: lightgrey;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
