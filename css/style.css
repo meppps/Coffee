@@ -125,6 +125,7 @@ h1:hover{
 .cardText{
   color: #333;
   font-weight: bold;
+  overflow: auto;
 }
 
 footer{
@@ -133,4 +134,30 @@ footer{
   text-align: center;
   margin-top: 20px;
   margin-bottom: 0;
+}
+
+@media(max-width: 768px){
+  h1{
+    
+  }
+
+  #info{
+    flex-direction: column;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+  }
+
+  #section-c{
+    flex-direction: column;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+  }
+
+  .card{
+    margin: 10px;
+  }
 }
