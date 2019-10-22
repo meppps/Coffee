@@ -67,24 +67,31 @@ h1:hover{
   padding-bottom: 30px;
 } */
 
+.parHeader{
+  margin-left: 6%;
+  margin-right: 6%;
+  font-weight: bold;
+  font-size: 30px;x
+}
 
 .section{
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
-#secion-b{
-  margin-top: 100px;
-  margin-bottom: 20px;
-  padding:20px;
-  background:#333;
-  text-align: left;
+#section-b{
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .cHeader{
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 #section-c{
@@ -133,7 +140,7 @@ footer{
   color: #333;
   background: lightgrey;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 0;
 }
 
@@ -160,6 +167,6 @@ footer{
 
   .card{
     margin: 10px;
-    height: 320px;
+    height: 350px;
   }
 }
